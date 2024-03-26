@@ -16,13 +16,13 @@ spec:
     spec:
       containers:
         - name: weather-ecosystem-service
-          image: lindq181/weather-ecosystem-service:1.0
+          image: lindq181/weather_ecosystem_service:1.0
           ports:
             - containerPort: 8080
           resources:
             requests:
-              memory: "64Mi"
-              cpu: "250m"
-            limits:
               memory: "128Mi"
               cpu: "500m"
+            limits:
+              memory: "256Mi"
+              cpu: "1000m"
