@@ -9,4 +9,4 @@ This is the Kubernetes project coordinating the different elements of the weathe
 
 ## Run
 
-Download Kubectl, spin up kube cluster with Docker Desktop, then create deployment & service
+Download `Kubectl`, spin up cluster with Docker Desktop, then create deployment & service
