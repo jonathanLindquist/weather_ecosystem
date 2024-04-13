@@ -7,7 +7,7 @@ metadata:
   labels:
     app: weather-ecosystem-service
 spec:
-  replicas: 2
+  replicas: 1 # bump to 2 for load balancing, currently at 1 for consolidated test logging
   selector:
     matchLabels:
       app: weather-ecosystem-service
