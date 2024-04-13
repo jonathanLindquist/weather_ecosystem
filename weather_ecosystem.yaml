@@ -181,7 +181,7 @@ spec:
       targetPort: 8080
   selector:
     app: we-producer-service
-  type: ClusterIP
+  type: LoadBalancer
 ---
 ############################ ZOOKEEPER SERVICE #######################################
 apiVersion: v1
@@ -209,5 +209,6 @@ spec:
     - protocol: TCP
       port: 9092
       targetPort: 9092
+  type: LoadBalancer
 ---
 
