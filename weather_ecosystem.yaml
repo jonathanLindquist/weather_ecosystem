@@ -100,7 +100,7 @@ spec:
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: kafka-deployment
+  name: kafka
   labels:
     app: kafka
 spec:
